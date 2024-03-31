@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LoginLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/edtEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:background="#FFB8FF"
+        android:inputType="textPersonName"
+        android:hint="Email: " />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:layout_marginTop="2dp"
+        android:background="#FFB8FF"
+        android:inputType="textPersonName"
+        android:hint="Password: " />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Login"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Register"
+        />
+
+    <TextView
+        android:id="@+id/TxtDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter A Valid Login"
+        android:background="#FFB8FF"
+        android:textSize="20sp" />
+
+</LinearLayout>
